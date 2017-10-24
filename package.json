@@ -1,23 +1,26 @@
 {
   "name": "probot-app-workflow",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "probot run"
   },
   "dependencies": {
-    "probot-app-label-release-pr": "1.0.0",
-    "probot-app-merge-pr": "1.0.0",
-    "probot-app-migrations": "1.0.0",
-    "probot-app-pr-title": "1.0.0",
-    "probot-app-release": "1.0.0",
-    "probot-app-release-notes": "1.0.0",
-    "probot-app-todos": "1.0.0"
+    "probot-app-label-release-pr": "^1.0.0",
+    "probot-app-merge-pr": "^1.0.0",
+    "probot-app-migrations": "^1.0.0",
+    "probot-app-pr-issue": "^1.0.0",
+    "probot-app-pr-title": "^1.0.0",
+    "probot-app-release": "^1.0.0",
+    "probot-app-release-notes": "^1.0.0",
+    "probot-app-todos": "^1.0.0"
   },
   "probot": {
-    "plugins": [
+    "apps": [
       "probot-app-label-release-pr",
       "probot-app-merge-pr",
       "probot-app-migrations",
+      "probot-app-pr-issue",
       "probot-app-pr-title",
       "probot-app-release",
       "probot-app-release-notes",
