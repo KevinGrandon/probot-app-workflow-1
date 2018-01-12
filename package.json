@@ -6,7 +6,7 @@
     "start": "probot run"
   },
   "dependencies": {
-    "probot": "3.0.3",
+    "probot": "4.1.0",
     "probot-app-label-release-pr": "1.0.4",
     "probot-app-merge-pr": "1.0.3",
     "probot-app-migrations": "1.0.5",
